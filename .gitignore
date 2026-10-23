@@ -1,0 +1,9 @@
+data/
+results/
+work/
+.nextflow/
+.nextflow.log*
+.nf-test/
+.nf-test.log
+*.pyc
+.DS_Store

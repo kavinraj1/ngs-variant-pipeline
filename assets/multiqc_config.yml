@@ -1,0 +1,9 @@
+title: "Germline variant calling report"
+report_comment: "Paired-end FASTQ to filtered VCF with GATK HaplotypeCaller, benchmarked against GIAB where a truth set is given."
+
+module_order:
+  - fastqc
+  - fastp
+  - picard
+  - samtools
+  - bcftools
