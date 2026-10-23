@@ -2,7 +2,7 @@
 # Build a small, realistic germline test dataset for HG002 (GIAB Ashkenazi son) on GRCh38.
 #
 #   scripts/fetch_test_data.sh [REGION] [NAME]
-#   scripts/fetch_test_data.sh chr20:10000000-10200000 test     # ~200 kb, used by CI
+#   scripts/fetch_test_data.sh chr20:10000000-10200000 test     # ~200 kb, used by -profile test
 #   scripts/fetch_test_data.sh chr20:10000000-15000000 chr20_5mb
 #
 # Produces data/ref/chr20.fa(.fai) and data/<NAME>/ with paired FASTQs, the GIAB v4.2.1
